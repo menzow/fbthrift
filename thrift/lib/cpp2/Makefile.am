@@ -181,6 +181,8 @@ thrift2include_transportcoredir = $(thrift2includedir)/transport/core
 
 thrift2include_transportcore_HEADERS = \
 	transport/core/TransportRoutingHandler.h \
+	transport/core/FunctionInfo.h \
+	transport/core/ThriftChannelIf.h \
 	transport/core/ThriftProcessor.h
 
 thrift2include_utildir = $(thrift2includedir)/util
